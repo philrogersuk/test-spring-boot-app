@@ -1,0 +1,8 @@
+*/.gradle/
+*/.idea/
+*/build/
+*/build_packageNpmApp
+*/node_modules
+/.gradle/
+/.idea/
+/build/

@@ -1,0 +1,5 @@
+rootProject.name = 'test-spring-boot-app'
+
+include 'npm-app'
+include 'java-app'
+
