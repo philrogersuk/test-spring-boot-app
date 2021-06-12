@@ -26,7 +26,7 @@ publishing {
             artifactId "$archivesBaseName"
             version "$version"
 
-            artifact bootJar
+            from components.java
         }
     }
 
