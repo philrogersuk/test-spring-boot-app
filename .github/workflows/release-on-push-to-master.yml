@@ -44,7 +44,7 @@ jobs:
         run: chmod +x gradlew
 
       - name: Publish package
-        run: gradle test publish
+        run: gradle clean test publish
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
