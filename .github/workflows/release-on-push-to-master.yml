@@ -28,7 +28,7 @@ jobs:
         run: chmod +x gradlew
 
       - name: Build with Gradle
-        run: ./gradlew clean publish
+        run: ./gradlew clean build publish
 
 #      - name: UploadCoverageToCodeCov
 #        uses: codecov/codecov-action@v1
