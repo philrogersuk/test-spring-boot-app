@@ -20,6 +20,15 @@ test {
 
 
 publishing {
+    publications {
+        gpr(MavenPublication) {
+            groupId 'net.hendonfc'
+            artifactId "$archivesBaseName"
+            version "$version"
+
+            artifact bootJar
+        }
+    }
 
     repositories {
         maven {

@@ -15,7 +15,7 @@ repositories {
 }
 
 dependencies {
-    runtimeOnly project(':npm-app')
+    implementation project(':npm-app')
 
     implementation "org.springframework.boot:spring-boot-starter-web:$springBootVersion"
     implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
