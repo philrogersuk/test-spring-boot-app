@@ -4,12 +4,13 @@
 name: Publish on new tag created
 
 on:
-  push:
-    tags:
-      - '**'
+  create:
 
 jobs:
+
   build:
+    if: ${{ startsWith(github.ref_type, 'tag') }}
+
     runs-on: ubuntu-latest
     permissions:
       contents: read
