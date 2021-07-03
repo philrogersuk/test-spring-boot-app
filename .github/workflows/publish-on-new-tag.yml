@@ -4,7 +4,7 @@
 name: Publish on new tag created
 
 on:
-  push:
+  create:
     tags:
       - '*'
 
