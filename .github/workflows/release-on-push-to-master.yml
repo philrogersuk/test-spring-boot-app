@@ -26,6 +26,8 @@ jobs:
 
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
+      - run: git config --global user.email "git@hendonfc.net"
+      - run: git config --global user.name "Hendon FC Git"
 
       - name: Build with Gradle
         run: ./gradlew clean build release
