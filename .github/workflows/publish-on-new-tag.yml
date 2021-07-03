@@ -4,7 +4,8 @@
 name: Publish on new tag created
 
 on:
-  create:
+  release:
+    types: [created]
 
 jobs:
   build:
