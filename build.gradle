@@ -44,7 +44,6 @@ publishing {
 }
 
 release {
-    failOnCommitNeeded = false
     failOnUnversionedFiles = false
     git {
         requireBranch = ''
