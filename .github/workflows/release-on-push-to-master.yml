@@ -28,9 +28,6 @@ jobs:
         run: chmod +x gradlew
 
       - name: Build with Gradle
-        permissions:
-          contents: read
-          packages: write
         run: ./gradlew clean build publish
 
 #      - name: UploadCoverageToCodeCov
